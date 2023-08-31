@@ -1,4 +1,6 @@
-fun main(args: Array<String>) {
-    val run = ArchiveMenu()
-    run.pickMenu()
+import models.MainMenu2
+
+fun main() {
+    val run = MainMenu2("")
+    run.work()
 }
